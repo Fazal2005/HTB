@@ -1,0 +1,6 @@
+rpcclient $> clear
+command not found: clear
+rpcclient $> enumdomusers
+user:[kyle] rid:[0x3e8]
+rpcclient $> 
+

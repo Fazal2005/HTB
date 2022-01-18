@@ -1,0 +1,19 @@
+Hydra v9.1 (c) 2020 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2021-12-10 08:17:13
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 14344399 login tries (l:1/p:14344399), ~3586100 tries per task
+[DATA] attacking ssh://writer.htb:22/
+[VERBOSE] Resolving addresses ... [VERBOSE] resolving done
+[INFO] Testing if password authentication is supported by ssh://kyle@10.10.11.101:22
+[INFO] Successful, password authentication is supported by ssh://10.10.11.101:22
+[STATUS] 28.00 tries/min, 28 tries in 00:01h, 14344371 to do in 8538:19h, 4 active
+[STATUS] 28.00 tries/min, 84 tries in 00:03h, 14344315 to do in 8538:17h, 4 active
+[STATUS] 26.29 tries/min, 184 tries in 00:07h, 14344215 to do in 9095:04h, 4 active
+[VERBOSE] Retrying connection for child 1
+[VERBOSE] Retrying connection for child 1
+[VERBOSE] Retrying connection for child 1
+[VERBOSE] Retrying connection for child 1
+[VERBOSE] Retrying connection for child 3
+[VERBOSE] Retrying connection for child 3
+[VERBOSE] Retrying connection for child 3
+[STATUS] 24.27 tries/min, 364 tries in 00:15h, 14344035 to do in 9851:41h, 4 active
