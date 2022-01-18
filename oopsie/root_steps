@@ -1,0 +1,6 @@
+Created a cat file in tmp with 'bin/sh' in it
+
+and changed the $path to /tmp from /usr then started /usr/bin/bugtracker
+
+and got it! 
+

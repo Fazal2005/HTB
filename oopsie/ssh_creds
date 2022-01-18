@@ -1,0 +1,6 @@
+www-data@oopsie:/var/www/html/cdn-cgi/login$ cat db.php
+cat db.php
+<?php
+$conn = mysqli_connect('localhost','robert','M3g4C0rpUs3r!','garage');
+?>
+
