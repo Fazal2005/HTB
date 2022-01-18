@@ -1,0 +1,15 @@
+Using default input encoding: UTF-8
+Loaded 1 password hash (netntlmv2, NTLMv2 C/R [MD4 HMAC-MD5 32/64])
+Will run 2 OpenMP threads
+Proceeding with single, rules:Single
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Warning: Only 3 candidates buffered for the current salt, minimum 8 needed for performance.
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Warning: Only 2 candidates buffered for the current salt, minimum 8 needed for performance.
+Proceeding with wordlist:/usr/share/john/password.lst, rules:Wordlist
+Proceeding with incremental:ASCII
+liltony          (tony)
+1g 0:00:03:12 DONE 3/3 (2021-10-18 02:04) 0.005190g/s 819250p/s 819250c/s 819250C/s labzter..lilton3
+Use the "--show --format=netntlmv2" options to display all of the cracked passwords reliably
+Session completed
+
