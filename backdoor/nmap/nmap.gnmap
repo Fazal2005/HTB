@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Wed Jan 19 00:53:59 2022 as: nmap -p- -sC -sV -A --min-rate=400 -oA nmap/nmap 10.10.11.125
+Host: 10.10.11.125 (backdoor.htb)	Status: Up
+Host: 10.10.11.125 (backdoor.htb)	Ports: 22/open/tcp//tcpwrapped///, 80/open/tcp//tcpwrapped///
+# Nmap done at Wed Jan 19 00:59:51 2022 -- 1 IP address (1 host up) scanned in 352.80 seconds

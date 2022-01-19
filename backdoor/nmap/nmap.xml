@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jan 19 00:53:59 2022 as: nmap -p- -sC -sV -A -&#45;min-rate=400 -oA nmap/nmap 10.10.11.125 -->
+<nmaprun scanner="nmap" args="nmap -p- -sC -sV -A -&#45;min-rate=400 -oA nmap/nmap 10.10.11.125" start="1642571639" startstr="Wed Jan 19 00:53:59 2022" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.11.125" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="Connect Scan" time="1642571731" percent="27.78" remaining="237" etc="1642571968"/>
+<taskprogress task="Connect Scan" time="1642571836" percent="59.90" remaining="132" etc="1642571967"/>
+<host starttime="1642571639" endtime="1642571991"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.11.125" addrtype="ipv4"/>
+<hostnames>
+<hostname name="backdoor.htb" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="65435">
+<extrareasons reason="no-responses" count="65435"/>
+</extraports>
+<extraports state="closed" count="98">
+<extrareasons reason="conn-refused" count="98"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/><script id="ssh-hostkey" output="&#xa;  3072 b4:de:43:38:46:57:db:4c:21:3b:69:f3:db:3c:62:88 (RSA)&#xa;  256 aa:c9:fc:21:0f:3e:f4:ec:6b:35:70:26:22:53:ef:66 (ECDSA)&#xa;  256 d2:8b:e4:ec:07:61:aa:ca:f8:ec:1c:f8:8c:c1:f6:e1 (ED25519)"><table>
+<elem key="bits">3072</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQDqz2EAb2SBSzEIxcu+9dzgUZzDJGdCFWjwuxjhwtpq3sGiUQ1jgwf7h5BE+AlYhSX0oqoOLPKA/QHLxvJ9sYz0ijBL7aEJU8tYHchYMCMu0e8a71p3UGirTjn2tBVe3RSCo/XRQOM/ztrBzlqlKHcqMpttqJHphVA0/1dP7uoLCJlAOOWnW0K311DXkxfOiKRc2izbgfgimMDR4T1C17/oh9355TBgGGg2F7AooUpdtsahsiFItCRkvVB1G7DQiGqRTWsFaKBkHPVMQFaLEm5DK9H7PRwE+UYCah/Wp95NkwWj3u3H93p4V2y0Y6kdjF/L+BRmB44XZXm2Vu7BN0ouuT1SP3zu8YUe3FHshFIml7Ac/8zL1twLpnQ9Hv8KXnNKPoHgrU+sh35cd0JbCqyPFG5yziL8smr7Q4z9/XeATKzL4bcjG87sGtZMtB8alQS7yFA6wmqyWqLFQ4rpi2S0CoslyQnighQSwNaWuBYXvOLi6AsgckJLS44L8LxU4J8=</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">b4de43384657db4c213b69f3db3c6288</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIuoNkiwwo7nM8ZE767bKSHJh+RbMsbItjTbVvKK4xKMfZFHzroaLEe9a2/P1D9h2M6khvPI74azqcqnI8SUJAk=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">aac9fc210f3ef4ec6b3570262253ef66</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIB7eoJSCw4DyNNaFftGoFcX4Ttpwf+RPo0ydNk7yfqca</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">d28be4ec0761aacaf8ec1cf88cc1f6e1</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/><script id="http-generator" output="WordPress 5.8.1"/><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script></port>
+</ports>
+<times srtt="392467" rttvar="5281" to="413591"/>
+</host>
+<runstats><finished time="1642571991" timestr="Wed Jan 19 00:59:51 2022" summary="Nmap done at Wed Jan 19 00:59:51 2022; 1 IP address (1 host up) scanned in 352.80 seconds" elapsed="352.80" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

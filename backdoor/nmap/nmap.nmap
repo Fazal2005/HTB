@@ -1,0 +1,16 @@
+# Nmap 7.91 scan initiated Wed Jan 19 00:53:59 2022 as: nmap -p- -sC -sV -A --min-rate=400 -oA nmap/nmap 10.10.11.125
+Nmap scan report for backdoor.htb (10.10.11.125)
+Host is up (0.39s latency).
+Not shown: 65435 filtered ports, 98 closed ports
+PORT   STATE SERVICE    VERSION
+22/tcp open  tcpwrapped
+| ssh-hostkey: 
+|   3072 b4:de:43:38:46:57:db:4c:21:3b:69:f3:db:3c:62:88 (RSA)
+|   256 aa:c9:fc:21:0f:3e:f4:ec:6b:35:70:26:22:53:ef:66 (ECDSA)
+|_  256 d2:8b:e4:ec:07:61:aa:ca:f8:ec:1c:f8:8c:c1:f6:e1 (ED25519)
+80/tcp open  tcpwrapped
+|_http-generator: WordPress 5.8.1
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jan 19 00:59:51 2022 -- 1 IP address (1 host up) scanned in 352.80 seconds
