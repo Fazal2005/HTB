@@ -1,0 +1,14 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:          http://forge.htb
+[+] Method:       GET
+[+] Threads:      50
+[+] Wordlist:     /usr/share/SecLists/Discovery/DNS/subdomains-top1million-110000.txt
+[+] User Agent:   gobuster/3.1.0
+[+] Timeout:      10s
+===============================================================
+2021/09/12 03:26:55 Starting gobuster in VHOST enumeration mode
+===============================================================
+Found: admin.forge.htb (Status: 200) [Size: 27]
