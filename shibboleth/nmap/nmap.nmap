@@ -1,0 +1,20 @@
+# Nmap 7.91 scan initiated Fri Jan 21 06:16:45 2022 as: nmap -sC -sV -oA nmap/nmap 10.10.11.124
+Nmap scan report for 10.10.11.124
+Host is up (0.29s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE         VERSION
+7/tcp    filtered echo
+80/tcp   open     http            Apache httpd 2.4.41
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Did not follow redirect to http://shibboleth.htb/
+497/tcp  filtered retrospect
+1087/tcp filtered cplscrambler-in
+1088/tcp filtered cplscrambler-al
+6389/tcp filtered clariion-evr01
+6543/tcp filtered mythtv
+8701/tcp filtered unknown
+9103/tcp filtered jetdirect
+Service Info: Host: shibboleth.htb
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan 21 06:17:34 2022 -- 1 IP address (1 host up) scanned in 48.58 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Fri Jan 21 06:16:45 2022 as: nmap -sC -sV -oA nmap/nmap 10.10.11.124
+Host: 10.10.11.124 ()	Status: Up
+Host: 10.10.11.124 ()	Ports: 7/filtered/tcp//echo///, 80/open/tcp//http//Apache httpd 2.4.41/, 497/filtered/tcp//retrospect///, 1087/filtered/tcp//cplscrambler-in///, 1088/filtered/tcp//cplscrambler-al///, 6389/filtered/tcp//clariion-evr01///, 6543/filtered/tcp//mythtv///, 8701/filtered/tcp//unknown///, 9103/filtered/tcp//jetdirect///	Ignored State: closed (991)
+# Nmap done at Fri Jan 21 06:17:34 2022 -- 1 IP address (1 host up) scanned in 48.58 seconds

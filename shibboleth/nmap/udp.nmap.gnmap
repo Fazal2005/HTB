@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Fri Jan 21 07:06:26 2022 as: nmap -F -sU -sV -oA nmap/udp.nmap shibboleth.htb
+Host: 10.10.11.124 (shibboleth.htb)	Status: Up
+Host: 10.10.11.124 (shibboleth.htb)	Ports: 623/open/udp//asf-rmcp///	Ignored State: closed (99)
+# Nmap done at Fri Jan 21 07:08:13 2022 -- 1 IP address (1 host up) scanned in 107.71 seconds
