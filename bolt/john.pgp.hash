@@ -1,0 +1,20 @@
+Warning: detected hash type "gpg", but the string is also recognized as "gpg-opencl"
+Use the "--format=gpg-opencl" option to force loading these as that type instead
+Using default input encoding: UTF-8
+Loaded 1 password hash (gpg, OpenPGP / GnuPG Secret Key [32/64])
+Cost 1 (s2k-count) is 16777216 for all loaded hashes
+Cost 2 (hash algorithm [1:MD5 2:SHA1 3:RIPEMD160 8:SHA256 9:SHA384 10:SHA512 11:SHA224]) is
+8 for all loaded hashes
+Cost 3 (cipher algorithm [1:IDEA 2:3DES 3:CAST5 4:Blowfish 7:AES128 8:AES192 9:AES256
+10:Twofish 11:Camellia128 12:Camellia192 13:Camellia256]) is 9 for all loaded hashes
+Press 'q' or Ctrl-C to abort, almost any other key for status
+0g 0:00:00:27 0.00% (ETA: 2021-10-06 13:00) 0g/s 27.58p/s 27.58c/s 27.58C/s caroline
+0g 0:00:09:21 0.09% (ETA: 2021-10-06 04:32) 0g/s 27.82p/s 27.82c/s 27.82C/s xxxxxxxxxx
+0g 0:00:12:24 0.12% (ETA: 2021-10-06 03:55) 0g/s 27.93p/s 27.93c/s 27.93C/s january12
+0g 0:00:17:20 0.17% (ETA: 2021-10-06 03:40) 0g/s 28.03p/s 28.03c/s 28.03C/s thuggin
+0g 0:00:22:38 0.22% (ETA: 2021-10-06 03:31) 0g/s 28.07p/s 28.07c/s 28.07C/s upgrade
+0g 0:00:24:51 0.24% (ETA: 2021-10-06 03:19) 0g/s 28.10p/s 28.10c/s 28.10C/s megan13
+merrychristmas (Eddie Johnson)
+1g 0:00:25:24 DONE (2021-09-29 00:23) 0.000656g/s 28.10p/s 28.10c/s 28.10C/s merrychristmas
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed

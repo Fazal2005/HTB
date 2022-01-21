@@ -1,0 +1,11 @@
+Warning: detected hash type "md5crypt", but the string is also recognized as "md5cryptlong"
+Use the "--format=md5crypt-long" option to force loading these as that type instead
+Using default input encoding: UTF-8
+Loaded 1 password hash (md5crypt, crypt(3) $1$ (and variants) [MD5 256/256 AVX2 8x3])
+Will run 2 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+deadbolt (?)
+1g 0:00:00:00 DONE (2021-09-28 10:44) 1.086g/s 187826p/s 187826c/s 187826C/s
+debie..curtis13
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed

@@ -1,0 +1,17 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url: http://bolt.htb
+[+] Method: GET
+[+] Threads: 30
+[+] Wordlist: /home/kali/tools/SecLists/Discovery/DNS/subdomains-top1million-5000.txt
+[+] User Agent: gobuster/3.1.0
+[+] Timeout: 10s
+===============================================================
+2021/09/28 10:52:53 Starting gobuster in VHOST enumeration mode
+===============================================================
+Found: mail.bolt.htb (Status: 200) [Size: 4943]
+Found: demo.bolt.htb (Status: 302) [Size: 219]
+===============================================================
+2021/09/28 10:53:32 Finished
